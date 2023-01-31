@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char c1, c2;
+    int a = 2;
+    int *m, *n;
 
-    c1 = 100;
-    c2 = 4 * c1;
-    printf("%c\n", c2);
+    m = &a;
+    n = &a;
     return 0;
 }
